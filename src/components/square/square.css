@@ -13,7 +13,9 @@
 .square.empty:hover {
   background-color: #eee;
 }
-
+.filled {
+  pointer-events: none;
+}
 .square.destination:hover {
   background-color: #dbffd7;
 }

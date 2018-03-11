@@ -6,7 +6,8 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "serve": "^6.3.1"
   },
   "scripts": {
     "start": "serve -s build",
@@ -14,13 +15,24 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --watch",
     "eject": "react-scripts eject",
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0",
-	"enzyme": "^3.2.0",
+    "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.0",
+    "gh-pages": "^1.1.0",
     "react-test-renderer": "^16.2.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikeyan-vk/reactFillSquare.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthikeyan-vk/reactFillSquare/issues"
   }
 }

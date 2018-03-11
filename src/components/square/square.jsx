@@ -4,6 +4,7 @@ import './square.css';
 const getClassName = (square, current, destination) => {
   let className = 'square';
   if (square.isAvailable()) className += ' empty';
+  if (!(square.isAvailable())) className +=' filled';
   if (current) className += ' current';
   if (destination) className += ' destination';
   return className;

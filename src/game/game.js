@@ -47,12 +47,14 @@ export default class Game {
   }
 
   nextSquare(square) {
-    if (!this.current) {
-      this.current = square;
-      square.setNumber(1);
-    } else if (this.current.hasDestination(square)) {
-      square.setNumber(this.current.number + 1);
-      this.current = square;
+    if(square.isAvailable()){
+      if (!this.current) {
+        this.current = square;
+        square.setNumber(1);
+      } else if (this.current.hasDestination(square)) {
+        square.setNumber(this.current.number + 1);
+        this.current = square;
+      }
     }
   }
 

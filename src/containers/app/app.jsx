@@ -15,14 +15,14 @@ class App extends Component {
     return (
       <div className="app">
         <header className="title">
-          <h1><span className="end">100</span> Squares Game</h1>
-          <p>Fill numbers from 1 to 100. Skip 1 cell diagonal or 2 cells otherwise.</p>
+          <h1><span className="end">10*10</span> Fill Squares Game</h1>
+          <p>Fill the squares with numbers from 1 to 100. </p>
+          <p> Condition: If the next number to be filled diagonally skip 1 cell  or 2 cells if horizontally or vertically.</p>
         </header>
         <Quad game={game} next={next} />
         {stuck &&
           <div className="buttons">
-            { !twitter && <button onClick={restart}>Restart</button> }
-            { <Twitter text={getTweetText(game)} /> }
+            { <button onClick={restart}>Restart</button> }
           </div>
         }
       </div>
