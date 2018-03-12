@@ -1,3 +1,6 @@
+100 Square game is Hamiltonian path problem build with React JS and to be published as Android and IOS app's.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
