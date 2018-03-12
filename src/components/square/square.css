@@ -13,11 +13,17 @@
 .square.empty:hover {
   background-color: #eee;
 }
+
 .filled {
   pointer-events: none;
 }
+
 .square.destination:hover {
   background-color: #dbffd7;
+}
+
+.square.empty.destination{
+  border-color: #f70707;
 }
 
 .square .number {
