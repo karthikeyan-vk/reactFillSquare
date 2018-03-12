@@ -24,6 +24,8 @@
 
 .square.empty.destination{
   border-color: #f70707;
+  border-top: 0.5px solid #f70707;
+  border-right: 0.5px solid #f70707;
 }
 
 .square .number {
