@@ -1,8 +1,7 @@
 .square {
   width: 10%;
   height: 10%;
-  border-bottom: 1px solid #bbb;
-  border-left: 1px solid #bbb;
+  border: 2px solid #bbb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,9 +22,9 @@
 }
 
 .square.empty.destination{
+  border: 3.5px solid #f70707;
   border-color: #f70707;
-  border-top: 0.5px solid #f70707;
-  border-right: 0.5px solid #f70707;
+ 
 }
 
 .square .number {
