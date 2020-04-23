@@ -2,7 +2,7 @@
   "name": "reactfillsquare",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.squareup.tk/",
+  "homepage": "https://squareup.tk/",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "react": "^16.2.0",
